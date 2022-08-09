@@ -2,9 +2,11 @@ package com.dev.base
 
 import android.app.Application
 import androidx.paging.ExperimentalPagingApi
+import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import timber.log.Timber
 
+@HiltAndroidApp
 open class MyApplication : Application() {
 
     @ExperimentalCoroutinesApi

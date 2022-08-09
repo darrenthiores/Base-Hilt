@@ -2,6 +2,7 @@ package com.dev.core.di
 
 import android.content.Context
 import androidx.room.Room
+import com.dev.core.BuildConfig
 import com.dev.core.data.local.BaseDb
 import dagger.Module
 import dagger.Provides
